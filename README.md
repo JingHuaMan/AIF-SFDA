@@ -51,7 +51,7 @@ python procedures/train.py --data_dirname <path to your dataset> --model_name pr
 The training command in the adaptation phase is as follows:
 
 ```
-python procedures/train.py --data_dirname <path to your dataset> --model_name FIB_unet --input_nc 3 --output_nc <class number> --dataset_name naive --batch_size 2 --preprocess vertical_flip horizontal_flip rotate --drop_last --optimizer adam --lr_scheduler linear --epochs_num <epoch number> --decay_epochs_num <you can set it to half the epoch number> --save_epoch_freq 2 --segmentation_pretrain_path <path to the best pth file in the pretrain phase> --name AIF_SFDA --display_port 19191 --gpu_ids 0 --do_filter_smooth --label_threshold 0.8 --ema_smooth_factor 0.9995 --alpha_0 1 --alpha_1 0.5 --alpha_2 1 --alpha_3 1
+python procedures/train.py --data_dirname <path to your dataset> --model_name AIF_SFDA --input_nc 3 --output_nc <class number> --dataset_name naive --batch_size 2 --preprocess vertical_flip horizontal_flip rotate --drop_last --optimizer adam --lr_scheduler linear --epochs_num <epoch number> --decay_epochs_num <you can set it to half the epoch number> --save_epoch_freq 2 --segmentation_pretrain_path <path to the best pth file in the pretrain phase> --name AIF_SFDA --display_port 19191 --gpu_ids 0 --do_filter_smooth --label_threshold 0.8 --ema_smooth_factor 0.9995 --alpha_0 1 --alpha_1 0.5 --alpha_2 1 --alpha_3 1
 ```
 
 ## Acknowledgment
