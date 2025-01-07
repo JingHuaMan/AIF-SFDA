@@ -1,6 +1,6 @@
 # AIF-SFDA: Autonomous Information Filter-driven Source-Free Domain Adaptation for Medical Image Segmentation
 
-This repository contains the official implementation of [AIF-SFDA: Autonomous Information Filter-driven Source-Free Domain Adaptation for Medical Image Segmentation](). This work has been accepted by AAAI 2025.
+This repository contains the official implementation of [AIF-SFDA: Autonomous Information Filter-driven Source-Free Domain Adaptation for Medical Image Segmentation](https://arxiv.org/abs/2501.03074). This work has been accepted by AAAI 2025.
 
 ![](images/architecture.png)
 
